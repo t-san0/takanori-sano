@@ -1,0 +1,39 @@
+.navbar {
+    background-color: #3a567a;
+    border: none;
+}
+.navbar-nav li a {
+        color: white;
+    }
+.navbar-brand {
+        color: white;
+    }
+body {
+        margin-top: 70px;
+  }
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1000px;
+}
+.profile-img {
+    width: 151.5px;
+    height: 202.5px;
+}
+.background-fill {
+    background-color: #3a567a;
+    color: white;
+}
+@media only screen and (max-width: 767px) {
+  /* 767px以下の画面サイズに適用されるCSS */
+  /* navbarを上部に固定する */
+  .navbar-fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  /* navbarの下にコンテンツを移動させる */
+  body {
+    padding-top: 70px; /* navbarの高さに合わせて調整 */
+  }
+}
